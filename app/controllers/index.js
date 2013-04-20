@@ -3,7 +3,7 @@ function doClick(e) {
 }
 
 Ti.include('cycle.js');
-Ti.include('csonv.js');
+Ti.include('ticsonv.js');
 
 var csv='family.csv';
 var data = csv.toObjects();
